@@ -84,7 +84,7 @@ INSERT INTO geographical_location (Location_ID, Village, Parish, Sub_County, Cou
 VALUES (1, 'Village A', 'Parish A', 'Sub County A', 'County A', 'Region A', 5000, '00.0000, 00.0000', 'High', 2, 85.5, 120);
 
 INSERT INTO patient_data (Patient_ID, First_Name, Last_Name, Date_of_Birth, Phone_Number, Next_of_Kin, Address, Date_Added, Update_Date)
-VALUES (1, 'Mwesigwa', 'Gilbert', '1990-01-01', '123456789', 'Jane Doe', '123 Main St', '2025-01-01', '2025-01-02');
+VALUES (1, 'Mwesigwa', 'Gilbert', '2004-02-08', '0744987221', 'Mwesigwa Agasi', '123 Main St', '2025-01-01', '2025-01-02');
 
 INSERT INTO health_facility (Facility_ID, Facility_Name, Location_ID, Facility_Type_ID, Capacity, Contact_Details, Date_Added, Date_Updated)
 VALUES (1, 'Hospital A', 1, 1, 100, 'victoria@hospital.com', '2025-01-01', '2025-01-02');
@@ -98,4 +98,3 @@ VALUES (1, 'Recovered', 'Patient fully recovered', '2025-01-01', '2025-01-02');
 INSERT INTO malaria_cases (Case_ID, Patient_ID, Facility_ID, Date_of_Diagnosis, Type_of_Malaria, Treatment_ID, Outcome_ID)
 VALUES (1, 1, 1, '2025-01-01', 'Plasmodium Falciparum', 1, 1);
 
--- End of Script
